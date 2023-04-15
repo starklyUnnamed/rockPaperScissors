@@ -1,5 +1,11 @@
 # rockPaperScissors
 Simple RoShamBo python project.
-Uses the rich library to color console output, so rich must be installed.
-Note to self :
-*Remember $source venv/bin/activate when rich is installed to a virtual environment :) 
+Uses the rich library to color console output. "requirements.txt" contains all the dependencies from 'pip freeze' in my virtual environment.
+
+
+To create a virtual environment with these dependencies run to following commands:
+	(To create a virtual environment in current directory):
+$ python -m venv venv
+$ source venv/bin/activate
+	(To install dependencies):
+$pip install -r requirements.txt
