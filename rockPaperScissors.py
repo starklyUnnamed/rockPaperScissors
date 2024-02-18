@@ -129,6 +129,7 @@ def play_again():
         play_again()
     elif playAgain == 'y':
         main()
+    exit()
 
 
 def main():
